@@ -1,0 +1,11 @@
+
+app: portfolio
+
+container:
+  name: portfolio-app
+
+image:
+  name: echo2000/portfolio
+  tag: v1
+
+type: NodePort
