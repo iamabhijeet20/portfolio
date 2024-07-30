@@ -1,11 +1,14 @@
 
 app: portfolio
 
+svc: portfolio-svc
+
+hostname: portfolio.com
+
 container:
   name: portfolio-app
 
 image:
   name: echo2000/portfolio
   tag: v1
-
-type: NodePort
+    
